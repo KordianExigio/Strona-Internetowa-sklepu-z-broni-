@@ -1,1 +1,1 @@
-# Strona-Internetowa-sklepu-z-broni-
+# Strona-Internetowa-sklepu-z-bronia
