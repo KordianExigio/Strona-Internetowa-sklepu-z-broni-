@@ -1,0 +1,124 @@
+/* Stylizacja całej nawigacji */
+
+body{
+    margin: 0px ;
+    font-family: Koulen;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* Stylizacja nawigacji */
+nav {
+    /*background-color: #333;*/
+    color: #fff;
+    padding: 10px;
+    height: 75px;
+    grid-column: 1/6;
+     /* Rozdzielanie elementów na krańcach */
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+    position: relative;
+
+    width: 100%;
+}
+
+.glowna-button{
+    position: relative;
+    grid-column: 5/6;
+    height: 50px;
+}
+
+.sklep-button{
+    position: relative;
+    grid-column: 6/7;
+    height: 50px;
+}
+
+.regulamin-button{
+    position: relative;
+    grid-column: 7/8;
+    height: 50px;
+}
+
+.kontakt-button{
+    position: relative;
+    grid-column: 8/9;
+    height: 50px;
+}
+
+nav input{
+    grid-column: 3/4;
+    border-radius: 5px;
+}
+
+nav img{
+    grid-column: 2/3;
+}
+
+/* Stylizacja przycisków nawigacyjnych */
+nav button {
+    background-color: #69774C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+/* Stylizacja przycisków nawigacyjnych po najechaniu myszą */
+nav button:hover {
+    background-color: #777;
+}
+
+.shop-navigation{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    position: relative;
+    top: 30px;
+    height: 80px;
+    background-color: #69774C;
+    grid-column: 1/3;
+    width: 100%;
+}
+
+.navigation img{
+    width: 120px;
+}
+
+#bron-button{
+    grid-column: 3/4;
+
+}
+
+#amunicja-button{
+    grid-column: 4/5;
+}
+
+#optyka-button{
+    grid-column: 5/6;
+}
+
+#akcesoria-button{
+    grid-column: 6/7;
+}
+
+.cart-button{
+    grid-column: 7/8;
+}
+
+.cart-img{
+    position: relative;
+    left: 50px;
+    width: 50px;
+}
+
+
