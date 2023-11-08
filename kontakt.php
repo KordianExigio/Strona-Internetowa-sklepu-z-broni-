@@ -14,10 +14,10 @@
                     
                    <img src="" alt="logo">
                    <input type="text" name="" id="" placeholder="wyszukaj">
-                   <button class="glowna-button" onclick="przenies('strona-glowna.html')">strona głowna</button>
-                    <button class="sklep-button" onclick="przenies('sklep.html')">sklep</button>
-                    <button class="regulamin-button" onclick="przenies('regulamin.html')">regulamin</button>
-                    <button class="kontakt-button" onclick="przenies('kontakt.html')">kontakt</button>
+                   <button class="glowna-button" onclick="przenies('strona-glowna.php')">strona głowna</button>
+                    <button class="sklep-button" onclick="przenies('sklep.php')">sklep</button>
+                    <button class="regulamin-button" onclick="przenies('regulamin.php')">regulamin</button>
+                    <button class="kontakt-button" onclick="przenies('kontakt.php')">kontakt</button>
      
      
                </div>
@@ -27,13 +27,7 @@
      </div>
 
 
-     <script>
-
-          function przenies(podstrona){
-               window.location.replace(podstrona)
-          }
-          
-     </script>
+     <script src="dropdown.js"></script>
      
 </body>
 </html>
