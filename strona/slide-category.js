@@ -47,14 +47,23 @@ function zmienZawartosc(i){
 
 
 
+function przesun(kierunek){
 
-function przesun(kierunek) {
-     if (kierunek == "right") {
-         currentCategoryIndex = (currentCategoryIndex + 1) % 5;
-     } else if (kierunek == "left") {
-         currentCategoryIndex = (currentCategoryIndex - 1 + 5) % 5;
-     }
+      if(kierunek == "right"){
+           if(i == 4){
+                i = 0;
+           }else{
+                i += 1;
+           }
+           console.log(i);
+      }else if(kierunek == "left"){
+           if(i == 0){
+                i = 4;
+           }else{
+                i += -1;
+           }
+      }
  
-     zmienZawartosc(currentCategoryIndex);
+      zmienZawartosc(i);
+ 
  }
-
