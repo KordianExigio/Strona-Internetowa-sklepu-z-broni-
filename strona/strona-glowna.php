@@ -15,7 +15,7 @@
           <nav>
                <div class="navigation">
                     
-                   <img src="logoTymczasowe.png" alt="logo">
+                   <img src="logo1.png" alt="logo">
                    <input type="text" name="" id="" placeholder="wyszukaj">
                    <button class="glowna-button" onclick="przenies('strona-glowna.php')">strona głowna</button>
                     <button class="sklep-button" onclick="przenies('sklep.php')">sklep</button>
@@ -66,7 +66,8 @@
           </nav>
 
           <div class="kategoria">
-              <h1><bold>Sklep z bronią i amunicją</bold></h1>
+              <h1><bold>Sklep z bronia i amunicja</bold></h1>
+              <div class="line-1"></div>
               <div class="kategoria-opcje">
                 <div class="button-left">
                   <button id="btn-left" onclick='przesun("left")'><</button>
@@ -101,6 +102,46 @@
                 
               </div>
             
+          </div>
+          <div class="promocje">
+                <h1>Promocje</h1>
+                <div class="line-2"></div>
+                <div class="promocje-opcje">
+                  <div class="prodoktPromocja" id="produkt1">
+                    <div class="promocja-metka"><div class="promocja-metka-dziura"></div><p>-50%</p></div>
+                        <img src="DEAGLE.jfif" alt="" id="image1"><br>
+                        <h2 id="h21">Dessert Deagle</h2>
+                        <p>800zł 400zł</p>
+                  </div>
+                  <div class="prodoktPromocja" id="produkt1">
+                        <div class="promocja-metka"><div class="promocja-metka-dziura"></div><p>-50%</p></div>
+                        <img src="DEAGLE.jfif" alt="" id="image1"><br>
+                        <h2 id="h21">Dessert Deagle</h2>
+                        <p>800zł 400zł</p>
+                      
+                  </div>
+                  <div class="prodoktPromocja" id="produkt1">
+                        <div class="promocja-metka"><div class="promocja-metka-dziura"></div><p>-50%</p></div>
+                        <img src="DEAGLE.jfif" alt="" id="image1"><br>
+                        <h2 id="h21">Dessert Deagle</h2>
+                        <p>800zł 400zł</p>
+                     
+                  </div>
+                  <div class="prodoktPromocja" id="produkt1">
+                        <div class="promocja-metka"><div class="promocja-metka-dziura"></div><p>-50%</p></div>
+                        <img src="DEAGLE.jfif" alt="" id="image1"><br>
+                        <h2 id="h21">Dessert Deagle</h2>
+                        <p>800zł 400zł</p>
+                    
+                  </div>
+                  <div class="prodoktPromocja" id="produkt1">
+                        <div class="promocja-metka"><div class="promocja-metka-dziura"></div><p>-50%</p></div>
+                        <img src="DEAGLE.jfif" alt="" id="image1"><br>
+                        <h2 id="h21">Dessert Deagle</h2>
+                        <p>800zł 400zł</p>
+                  
+                  </div>
+              </div>
           </div>
 
 
